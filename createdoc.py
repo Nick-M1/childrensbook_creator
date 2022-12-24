@@ -101,7 +101,6 @@ def main(args):
 
 # ACCEPTING ARGS
 if __name__ == "__main__":
-    print("HEHEHEHEHE")
     parser = argparse.ArgumentParser()
 
     parser.add_argument("-i", "--input_file", required=True,
@@ -111,6 +110,7 @@ if __name__ == "__main__":
                         help="Name of output book")
 
     args = parser.parse_args()
+
     main(args)
 
 

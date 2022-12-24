@@ -17,3 +17,13 @@ An example input file can be found in the 'input_files' folder and an example ou
 1) Place input texts into the 'input_files' folder, as a '.txt' file.
 2) Run command
 3) The output file (as a '.docx' file) will be created in the 'output_files' folder
+
+
+```
+Usage: python createdoc.py [-h] -i INPUT_FILE -n BOOK_NAME
+
+Options:
+  -h, --help                                        show this help message and exit
+  -i INPUT_FILE, --input_file INPUT_FILE            Name of input file
+  -n BOOK_NAME, --book_name BOOK_NAME               Name of output book
+```
