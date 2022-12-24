@@ -2,3 +2,4 @@ tomli
 pyChatGPT
 openai
 python-docx
+requests
