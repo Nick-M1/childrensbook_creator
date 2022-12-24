@@ -1,0 +1,4 @@
+tomli
+pyChatGPT
+openai
+python-docx

@@ -1,0 +1,14 @@
+[chatGPT]
+email = '<EmailAddress>'
+password = '<Password>'
+session_token = '<SessionToken>'
+
+
+[openapi]                   # For DALLE
+apikey = '<DalleApiKey>'
+image_num = 1               # Number of images created
+image_size = '512x512'      # Image size/res
+
+
+[prompts]
+rewritting_style = 'For a childrens book'           # Change to what style you would like
